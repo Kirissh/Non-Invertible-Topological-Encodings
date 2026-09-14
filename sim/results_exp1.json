@@ -1,0 +1,163 @@
+{
+  "random_family": {
+    "edge_count": {
+      "n_graphs": 60,
+      "violations_vs_D": 0,
+      "violations_vs_Dmax": 0,
+      "max_exact": 8.0,
+      "bound_at_D": 8.0,
+      "mean_tightness_vs_Dmax": 1.0,
+      "max_tightness_vs_Dmax": 1.0
+    },
+    "degree_hist": {
+      "n_graphs": 60,
+      "violations_vs_D": 0,
+      "violations_vs_Dmax": 0,
+      "max_exact": 17.0,
+      "bound_at_D": 17.0,
+      "mean_tightness_vs_Dmax": 0.7757168757168758,
+      "max_tightness_vs_Dmax": 1.0
+    },
+    "triangles": {
+      "n_graphs": 60,
+      "violations_vs_D": 0,
+      "violations_vs_Dmax": 0,
+      "max_exact": 15.0,
+      "bound_at_D": 28.0,
+      "mean_tightness_vs_Dmax": 0.44722222222222213,
+      "max_tightness_vs_Dmax": 0.8333333333333334
+    },
+    "attr_hist": {
+      "n_graphs": 60,
+      "violations_vs_D": 0,
+      "violations_vs_Dmax": 0,
+      "max_exact": 1.0,
+      "bound_at_D": 1.0,
+      "mean_tightness_vs_Dmax": 1.0,
+      "max_tightness_vs_Dmax": 1.0
+    },
+    "spectrum_l2": {
+      "n_graphs": 60,
+      "violations_vs_D": 0,
+      "violations_vs_Dmax": 0,
+      "max_exact": 2.963335811815059,
+      "bound_at_D": 9.38083151964686,
+      "mean_tightness_vs_Dmax": 0.3358731120974436,
+      "max_tightness_vs_Dmax": 0.5024471159172583
+    }
+  },
+  "worked_example": {
+    "edges_before": 12,
+    "edges_after": 8,
+    "edge_delta": 4,
+    "edge_bound_sD": 4,
+    "hist_before": [
+      0.0,
+      0.0,
+      4.0,
+      4.0,
+      1.0
+    ],
+    "hist_after": [
+      0.0,
+      0.0,
+      8.0,
+      0.0,
+      0.0
+    ],
+    "hist_l1": 9.0,
+    "hist_bound": 9.0,
+    "hist_tight": true,
+    "spectrum_before": [
+      6.0,
+      4.0,
+      4.0,
+      3.0,
+      3.0,
+      2.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "spectrum_after": [
+      4.0,
+      3.4142,
+      3.4142,
+      2.0,
+      2.0,
+      0.5858,
+      0.5858,
+      0.0,
+      0.0
+    ],
+    "spectrum_l2": 3.1397236146306007,
+    "spectrum_l2_bound": 5.291502622129181,
+    "spectrum_l1": 7.999999999999999,
+    "spectrum_l1_bound": 15.874507866387544
+  },
+  "packing": [
+    {
+      "r_min": 6.0,
+      "r": 12.0,
+      "D_pack": 24.0,
+      "max_observed": 6,
+      "mean_observed": 4.9,
+      "violated": false
+    },
+    {
+      "r_min": 6.0,
+      "r": 15.0,
+      "D_pack": 35.0,
+      "max_observed": 8,
+      "mean_observed": 6.65,
+      "violated": false
+    },
+    {
+      "r_min": 6.0,
+      "r": 20.0,
+      "D_pack": 57.777777777777786,
+      "max_observed": 13,
+      "mean_observed": 10.3,
+      "violated": false
+    },
+    {
+      "r_min": 8.0,
+      "r": 20.0,
+      "D_pack": 35.0,
+      "max_observed": 11,
+      "mean_observed": 9.075,
+      "violated": false
+    },
+    {
+      "r_min": 5.0,
+      "r": 25.0,
+      "D_pack": 120.0,
+      "max_observed": 18,
+      "mean_observed": 15.175,
+      "violated": false
+    }
+  ],
+  "knn": [
+    {
+      "k": 3,
+      "bound_7k": 21,
+      "max_observed": 8,
+      "mean_observed": 6.566666666666666,
+      "violated": false
+    },
+    {
+      "k": 5,
+      "bound_7k": 35,
+      "max_observed": 11,
+      "mean_observed": 9.766666666666667,
+      "violated": false
+    },
+    {
+      "k": 8,
+      "bound_7k": 56,
+      "max_observed": 16,
+      "mean_observed": 14.3,
+      "violated": false
+    }
+  ]
+}

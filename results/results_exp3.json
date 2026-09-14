@@ -1,0 +1,64 @@
+{
+  "n_patients": 200,
+  "chance_top1": 0.005,
+  "sensitivity_cell": 40.978250586152114,
+  "feature_dim": 19,
+  "rows": [
+    {
+      "eps": 0.1,
+      "reid_top1": 0.005,
+      "reid_top5": 0.022,
+      "diag": 0.506,
+      "reid_lift": 1.0
+    },
+    {
+      "eps": 0.5,
+      "reid_top1": 0.011,
+      "reid_top5": 0.037000000000000005,
+      "diag": 0.558,
+      "reid_lift": 2.1999999999999997
+    },
+    {
+      "eps": 1.0,
+      "reid_top1": 0.01,
+      "reid_top5": 0.045,
+      "diag": 0.8059999999999998,
+      "reid_lift": 2.0
+    },
+    {
+      "eps": 2.0,
+      "reid_top1": 0.016,
+      "reid_top5": 0.07200000000000001,
+      "diag": 0.942,
+      "reid_lift": 3.2
+    },
+    {
+      "eps": 5.0,
+      "reid_top1": 0.06000000000000001,
+      "reid_top5": 0.16,
+      "diag": 0.998,
+      "reid_lift": 12.000000000000002
+    },
+    {
+      "eps": 10.0,
+      "reid_top1": 0.097,
+      "reid_top5": 0.301,
+      "diag": 1.0,
+      "reid_lift": 19.4
+    },
+    {
+      "eps": 50.0,
+      "reid_top1": 0.22399999999999998,
+      "reid_top5": 0.496,
+      "diag": 1.0,
+      "reid_lift": 44.8
+    },
+    {
+      "eps": null,
+      "reid_top1": 0.21000000000000002,
+      "reid_top5": 0.525,
+      "diag": 1.0,
+      "reid_lift": 42.0
+    }
+  ]
+}

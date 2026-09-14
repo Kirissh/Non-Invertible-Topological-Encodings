@@ -1,0 +1,74 @@
+{
+  "n": 400,
+  "chance_top1": 0.0025,
+  "sensitivity_cell": 52.83281572999748,
+  "feature_dim": 22,
+  "neoplastic_median": 0.229020979020979,
+  "rows": [
+    {
+      "eps": 0.1,
+      "reid_top1": 0.003125,
+      "reid_top5": 0.013125,
+      "diag_neoplastic": 0.52625,
+      "diag_tissue": 0.14875000000000002,
+      "reid_lift": 1.25
+    },
+    {
+      "eps": 0.5,
+      "reid_top1": 0.001875,
+      "reid_top5": 0.01375,
+      "diag_neoplastic": 0.51125,
+      "diag_tissue": 0.14125000000000001,
+      "reid_lift": 0.75
+    },
+    {
+      "eps": 1.0,
+      "reid_top1": 0.0037500000000000003,
+      "reid_top5": 0.015625,
+      "diag_neoplastic": 0.5250000000000001,
+      "diag_tissue": 0.1325,
+      "reid_lift": 1.5
+    },
+    {
+      "eps": 2.0,
+      "reid_top1": 0.00625,
+      "reid_top5": 0.029375,
+      "diag_neoplastic": 0.5425,
+      "diag_tissue": 0.1575,
+      "reid_lift": 2.5
+    },
+    {
+      "eps": 5.0,
+      "reid_top1": 0.020625,
+      "reid_top5": 0.06625,
+      "diag_neoplastic": 0.7,
+      "diag_tissue": 0.17624999999999996,
+      "reid_lift": 8.25
+    },
+    {
+      "eps": 10.0,
+      "reid_top1": 0.03625,
+      "reid_top5": 0.1225,
+      "diag_neoplastic": 0.81375,
+      "diag_tissue": 0.20875000000000002,
+      "reid_lift": 14.499999999999998
+    },
+    {
+      "eps": 50.0,
+      "reid_top1": 0.166875,
+      "reid_top5": 0.3725,
+      "diag_neoplastic": 0.95875,
+      "diag_tissue": 0.21375,
+      "reid_lift": 66.75
+    },
+    {
+      "eps": null,
+      "reid_top1": 0.23,
+      "reid_top5": 0.47,
+      "diag_neoplastic": 0.965,
+      "diag_tissue": 0.24,
+      "reid_lift": 92.0
+    }
+  ],
+  "n_tissue_classes": 19
+}

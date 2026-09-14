@@ -1,0 +1,262 @@
+{
+  "theorem2": [
+    {
+      "eps": 0.1,
+      "empirical_mean_loss": 77.84718333484564,
+      "certified_mean_bound": 77.86199999999998,
+      "ratio": 0.9998097060805741,
+      "holds": true,
+      "empirical_q95": 109.04347451117746,
+      "hp_bound_95": 462.5136140793182,
+      "hp_holds": true
+    },
+    {
+      "eps": 0.5,
+      "empirical_mean_loss": 15.597770359793962,
+      "certified_mean_bound": 15.572399999999998,
+      "ratio": 1.0016291875236936,
+      "holds": false,
+      "empirical_q95": 22.03604505449108,
+      "hp_bound_95": 92.50272281586363,
+      "hp_holds": true
+    },
+    {
+      "eps": 1.0,
+      "empirical_mean_loss": 7.801256412420353,
+      "certified_mean_bound": 7.786199999999999,
+      "ratio": 1.001933730500161,
+      "holds": false,
+      "empirical_q95": 10.940987328235849,
+      "hp_bound_95": 46.25136140793182,
+      "hp_holds": true
+    },
+    {
+      "eps": 2.0,
+      "empirical_mean_loss": 3.884262647568919,
+      "certified_mean_bound": 3.8930999999999996,
+      "ratio": 0.9977299960363,
+      "holds": true,
+      "empirical_q95": 5.462429734904843,
+      "hp_bound_95": 23.12568070396591,
+      "hp_holds": true
+    },
+    {
+      "eps": 5.0,
+      "empirical_mean_loss": 1.5586333669799826,
+      "certified_mean_bound": 1.5572399999999997,
+      "ratio": 1.0008947670108543,
+      "holds": false,
+      "empirical_q95": 2.1903599689755486,
+      "hp_bound_95": 9.250272281586364,
+      "hp_holds": true
+    },
+    {
+      "eps": 10.0,
+      "empirical_mean_loss": 0.7795695665558834,
+      "certified_mean_bound": 0.7786199999999999,
+      "ratio": 1.0012195506869634,
+      "holds": false,
+      "empirical_q95": 1.0917233994158535,
+      "hp_bound_95": 4.625136140793182,
+      "hp_holds": true
+    }
+  ],
+  "theorem1": [
+    {
+      "eps": 0.1,
+      "eta_bits": 0.06844440768830379,
+      "empirical_mse": 1.0049384616852168,
+      "floor_gamma": 0.9999768352057035,
+      "trivial_estimator_mse": 1.0,
+      "holds": true
+    },
+    {
+      "eps": 1.0,
+      "eta_bits": 5.547360819539456,
+      "empirical_mse": 1.0030294874635344,
+      "floor_gamma": 0.9981242528660558,
+      "trivial_estimator_mse": 1.0,
+      "holds": true
+    },
+    {
+      "eps": 10.0,
+      "eta_bits": 53.85000837155266,
+      "empirical_mse": 1.000180854790013,
+      "floor_gamma": 0.9819395045113929,
+      "trivial_estimator_mse": 1.0,
+      "holds": true
+    },
+    {
+      "eps": 100.0,
+      "eta_bits": 116.70230316071803,
+      "empirical_mse": 1.0001785502607479,
+      "floor_gamma": 0.9612718913642233,
+      "trivial_estimator_mse": 1.0,
+      "holds": true
+    }
+  ],
+  "lemma_a": [
+    {
+      "eps": 0.01,
+      "regime": "cohort (R=2)",
+      "R": 2,
+      "tanh_factor": 0.00999966667999946
+    },
+    {
+      "eps": 0.01,
+      "regime": "small slide (R=200)",
+      "R": 200,
+      "tanh_factor": 0.7615941559557649
+    },
+    {
+      "eps": 0.01,
+      "regime": "whole slide (R=10000)",
+      "R": 10000,
+      "tanh_factor": 1.0
+    },
+    {
+      "eps": 0.1,
+      "regime": "cohort (R=2)",
+      "R": 2,
+      "tanh_factor": 0.09966799462495582
+    },
+    {
+      "eps": 0.1,
+      "regime": "small slide (R=200)",
+      "R": 200,
+      "tanh_factor": 0.9999999958776927
+    },
+    {
+      "eps": 0.1,
+      "regime": "whole slide (R=10000)",
+      "R": 10000,
+      "tanh_factor": 1.0
+    },
+    {
+      "eps": 0.5,
+      "regime": "cohort (R=2)",
+      "R": 2,
+      "tanh_factor": 0.46211715726000974
+    },
+    {
+      "eps": 0.5,
+      "regime": "small slide (R=200)",
+      "R": 200,
+      "tanh_factor": 1.0
+    },
+    {
+      "eps": 0.5,
+      "regime": "whole slide (R=10000)",
+      "R": 10000,
+      "tanh_factor": 1.0
+    },
+    {
+      "eps": 1.0,
+      "regime": "cohort (R=2)",
+      "R": 2,
+      "tanh_factor": 0.7615941559557649
+    },
+    {
+      "eps": 1.0,
+      "regime": "small slide (R=200)",
+      "R": 200,
+      "tanh_factor": 1.0
+    },
+    {
+      "eps": 1.0,
+      "regime": "whole slide (R=10000)",
+      "R": 10000,
+      "tanh_factor": 1.0
+    },
+    {
+      "eps": 2.0,
+      "regime": "cohort (R=2)",
+      "R": 2,
+      "tanh_factor": 0.9640275800758169
+    },
+    {
+      "eps": 2.0,
+      "regime": "small slide (R=200)",
+      "R": 200,
+      "tanh_factor": 1.0
+    },
+    {
+      "eps": 2.0,
+      "regime": "whole slide (R=10000)",
+      "R": 10000,
+      "tanh_factor": 1.0
+    }
+  ],
+  "pareto": [
+    {
+      "resolution": "64x64x3",
+      "m": 12288,
+      "Delta_graph": 40.98,
+      "Delta_pixel": 12288.0,
+      "sensitivity_ratio": 299.8535871156662,
+      "eps_min_graph": 81.96,
+      "eps_min_pixel": 24576.0,
+      "threshold_ratio": 299.8535871156662
+    },
+    {
+      "resolution": "256x256x3",
+      "m": 196608,
+      "Delta_graph": 40.98,
+      "Delta_pixel": 196608.0,
+      "sensitivity_ratio": 4797.657393850659,
+      "eps_min_graph": 81.96,
+      "eps_min_pixel": 393216.0,
+      "threshold_ratio": 4797.657393850659
+    },
+    {
+      "resolution": "512x512x3",
+      "m": 786432,
+      "Delta_graph": 40.98,
+      "Delta_pixel": 786432.0,
+      "sensitivity_ratio": 19190.629575402636,
+      "eps_min_graph": 81.96,
+      "eps_min_pixel": 1572864.0,
+      "threshold_ratio": 19190.629575402636
+    },
+    {
+      "resolution": "1024x1024x3",
+      "m": 3145728,
+      "Delta_graph": 40.98,
+      "Delta_pixel": 3145728.0,
+      "sensitivity_ratio": 76762.51830161054,
+      "eps_min_graph": 81.96,
+      "eps_min_pixel": 6291456.0,
+      "threshold_ratio": 76762.51830161054
+    }
+  ],
+  "ceiling": [
+    {
+      "resolution": "256x256",
+      "image_bits": 1572864.0,
+      "ceiling_bits": 767598.3853056765,
+      "ratio": 2.04907153286109,
+      "log2_fiber": 805265.6146943235
+    },
+    {
+      "resolution": "512x512",
+      "image_bits": 6291456.0,
+      "ceiling_bits": 767598.3853056765,
+      "ratio": 8.19628613144436,
+      "log2_fiber": 5523857.614694323
+    },
+    {
+      "resolution": "1024x1024",
+      "image_bits": 25165824.0,
+      "ceiling_bits": 767598.3853056765,
+      "ratio": 32.78514452577744,
+      "log2_fiber": 24398225.614694323
+    },
+    {
+      "resolution": "2048x2048",
+      "image_bits": 100663296.0,
+      "ceiling_bits": 767598.3853056765,
+      "ratio": 131.14057810310976,
+      "log2_fiber": 99895697.61469433
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "geometry": {
+    "n_patches": 400,
+    "r_um": 15.0,
+    "r_min_assumed_um": 6.0,
+    "D_pack": 35.0,
+    "nn_p01_um": 2.36695301048923,
+    "nn_p05_um": 3.5699652946635534,
+    "nn_p50_um": 6.971191229208894,
+    "max_degree_observed": 32,
+    "mean_max_degree": 6.29,
+    "packing_violations": 0,
+    "packing_holds": true
+  },
+  "sensitivity": {
+    "edge_count": {
+      "n": 120,
+      "max_exact": 19.0,
+      "bound": 35.0,
+      "violations_vs_D": 0,
+      "max_tightness": 0.5428571428571428
+    },
+    "degree_hist": {
+      "n": 120,
+      "max_exact": 23.0,
+      "bound": 71.0,
+      "violations_vs_D": 0,
+      "max_tightness": 0.323943661971831
+    },
+    "attr_hist": {
+      "n": 120,
+      "max_exact": 1.0,
+      "bound": 1.0,
+      "violations_vs_D": 0,
+      "max_tightness": 1.0
+    },
+    "spectrum_l2": {
+      "n": 120,
+      "max_exact": 6.159452838337869,
+      "bound": 36.46916505762094,
+      "violations_vs_D": 0,
+      "max_tightness": 0.168894813703741,
+      "violations_vs_Dmax": 0,
+      "max_tightness_Dmax": 1.0
+    }
+  },
+  "n_sens_graphs": 120
+}

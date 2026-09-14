@@ -1,0 +1,89 @@
+{
+  "n_patients": 200,
+  "feature_dim": 19,
+  "sensitivity_cell": 40.978250586152114,
+  "sensitivity_slide": 1296.0,
+  "chance_reid": 0.005,
+  "rows": [
+    {
+      "eps": 0.01,
+      "reid_cell": 0.003,
+      "reid_slide": 0.006,
+      "diag_cell": 0.4640000000000001,
+      "diag_slide": 0.49000000000000005,
+      "fano_max_reid_cohort": 0.13271141230599026
+    },
+    {
+      "eps": 0.05,
+      "reid_cell": 0.008,
+      "reid_slide": 0.006,
+      "diag_cell": 0.484,
+      "diag_slide": 0.506,
+      "fano_max_reid_cohort": 0.1402609789387005
+    },
+    {
+      "eps": 0.1,
+      "reid_cell": 0.005,
+      "reid_slide": 0.007000000000000001,
+      "diag_cell": 0.5119999999999999,
+      "diag_slide": 0.48599999999999993,
+      "fano_max_reid_cohort": 0.14969793722958824
+    },
+    {
+      "eps": 0.5,
+      "reid_cell": 0.009,
+      "reid_slide": 0.006,
+      "diag_cell": 0.6499999999999999,
+      "diag_slide": 0.504,
+      "fano_max_reid_cohort": 0.22519360355669016
+    },
+    {
+      "eps": 1.0,
+      "reid_cell": 0.020000000000000004,
+      "reid_slide": 0.006,
+      "diag_cell": 0.866,
+      "diag_slide": 0.502,
+      "fano_max_reid_cohort": 0.3195631864655677
+    },
+    {
+      "eps": 2.0,
+      "reid_cell": 0.024,
+      "reid_slide": 0.001,
+      "diag_cell": 0.974,
+      "diag_slide": 0.48600000000000004,
+      "fano_max_reid_cohort": 0.5083023522833224
+    },
+    {
+      "eps": 5.0,
+      "reid_cell": 0.11499999999999999,
+      "reid_slide": 0.004,
+      "diag_cell": 1.0,
+      "diag_slide": 0.5,
+      "fano_max_reid_cohort": 1.074519849736587
+    },
+    {
+      "eps": 10.0,
+      "reid_cell": 0.383,
+      "reid_slide": 0.008,
+      "diag_cell": 1.0,
+      "diag_slide": 0.5820000000000001,
+      "fano_max_reid_cohort": 2.0182156788253613
+    },
+    {
+      "eps": 50.0,
+      "reid_cell": 0.974,
+      "reid_slide": 0.012,
+      "diag_cell": 1.0,
+      "diag_slide": 0.9420000000000002,
+      "fano_max_reid_cohort": 9.567782311535556
+    },
+    {
+      "eps": null,
+      "reid_cell": 1.0,
+      "reid_slide": 1.0,
+      "diag_cell": 1.0,
+      "diag_slide": 1.0,
+      "fano_max_reid_cohort": 1.0
+    }
+  ]
+}
