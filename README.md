@@ -1,4 +1,4 @@
-# Property-Representation
+# Non-Invertible-Topological-Encodings
 
 Public code and experimental artefacts for **representation-based privacy** of medical images via cell graphs and node-level differential privacy.
 
